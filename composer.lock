@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ac610251d59e2338f6f8325d2c725cc",
+    "content-hash": "bc62e76f55f3e2178c12a4b2b970c012",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -1435,48 +1435,49 @@
         },
         {
             "name": "k911/swoole-bundle",
-            "version": "v0.4.4",
+            "version": "v0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/k911/swoole-bundle.git",
-                "reference": "9713e619c13799f6a6ae552b23f4afed4e90b910"
+                "reference": "be304d546850dd2af4e1824e0beed8f5d4716938"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/k911/swoole-bundle/zipball/9713e619c13799f6a6ae552b23f4afed4e90b910",
-                "reference": "9713e619c13799f6a6ae552b23f4afed4e90b910",
+                "url": "https://api.github.com/repos/k911/swoole-bundle/zipball/be304d546850dd2af4e1824e0beed8f5d4716938",
+                "reference": "be304d546850dd2af4e1824e0beed8f5d4716938",
                 "shasum": ""
             },
             "require": {
                 "beberlei/assert": "^3.0",
                 "ext-swoole": "^4",
                 "php": "^7.2",
-                "symfony/config": "^4.1",
-                "symfony/console": "^4.1",
-                "symfony/dependency-injection": "^4.1",
-                "symfony/http-foundation": "^4.1",
-                "symfony/http-kernel": "^4.1",
-                "symfony/process": "^4.1"
+                "symfony/config": "^4.2",
+                "symfony/console": "^4.2",
+                "symfony/dependency-injection": "^4.2",
+                "symfony/http-foundation": "^4.2",
+                "symfony/http-kernel": "^4.2",
+                "symfony/process": "^4.2"
             },
             "require-dev": {
                 "doctrine/annotations": "^1.6",
                 "doctrine/orm": "^2.6.3",
-                "eaglewu/swoole-ide-helper": "dev-master",
                 "friendsofphp/php-cs-fixer": "^2.14",
-                "phpstan/phpstan": "^0.10.7",
-                "phpstan/phpstan-beberlei-assert": "^0.10.0",
-                "phpstan/phpstan-doctrine": "^0.10.0",
-                "phpstan/phpstan-phpunit": "^0.10.0",
-                "phpunit/php-code-coverage": "^6.0",
-                "phpunit/phpcov": "^5.0",
-                "phpunit/phpunit": "^7.0",
-                "symfony/debug": "^4.1",
-                "symfony/framework-bundle": "^4.1",
-                "symfony/monolog-bridge": "^4.1",
+                "jangregor/phpstan-prophecy": "^0.3.0",
+                "phpstan/phpstan": "^0.11.4",
+                "phpstan/phpstan-beberlei-assert": "^0.11.0",
+                "phpstan/phpstan-doctrine": "^0.11.1",
+                "phpstan/phpstan-phpunit": "^0.11.0",
+                "phpunit/php-code-coverage": "^7.0",
+                "phpunit/phpcov": "^6.0",
+                "phpunit/phpunit": "^8.0.4",
+                "swoole/ide-helper": "^4.3",
+                "symfony/debug": "^4.2",
+                "symfony/framework-bundle": "^4.2.4",
+                "symfony/monolog-bridge": "^4.2",
                 "symfony/monolog-bundle": "^3.3",
-                "symfony/twig-bundle": "^4.1",
-                "symfony/var-dumper": "^4.1",
-                "symfony/yaml": "^4.1"
+                "symfony/twig-bundle": "^4.2",
+                "symfony/var-dumper": "^4.2",
+                "symfony/yaml": "^4.2"
             },
             "suggest": {
                 "doctrine/orm": "To use the EntityManager handler.",
@@ -1517,7 +1518,7 @@
                 "server",
                 "swoole"
             ],
-            "time": "2019-01-06T18:28:06+00:00"
+            "time": "2019-04-26T14:29:32+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -4967,7 +4968,8 @@
     "platform": {
         "php": "^7.1.3",
         "ext-ctype": "*",
-        "ext-iconv": "*"
+        "ext-iconv": "*",
+        "ext-json": "*"
     },
     "platform-dev": []
 }

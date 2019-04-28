@@ -7,7 +7,7 @@
         "ext-iconv": "*",
         "ext-json": "*",
         "friendsofsymfony/user-bundle": "^2.1",
-        "k911/swoole-bundle": "^0.4.4",
+        "k911/swoole-bundle": "^0.5",
         "sensio/framework-extra-bundle": "^5.3",
         "symfony/console": "4.2.*",
         "symfony/dotenv": "4.2.*",
