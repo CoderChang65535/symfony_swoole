@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bc62e76f55f3e2178c12a4b2b970c012",
+    "content-hash": "3c0e2fa9791eaf427547c13baef59045",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -1435,16 +1435,16 @@
         },
         {
             "name": "k911/swoole-bundle",
-            "version": "v0.5.0",
+            "version": "v0.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/k911/swoole-bundle.git",
-                "reference": "be304d546850dd2af4e1824e0beed8f5d4716938"
+                "reference": "a4c78f5a99572ed25e2bc76177ad01be40def327"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/k911/swoole-bundle/zipball/be304d546850dd2af4e1824e0beed8f5d4716938",
-                "reference": "be304d546850dd2af4e1824e0beed8f5d4716938",
+                "url": "https://api.github.com/repos/k911/swoole-bundle/zipball/a4c78f5a99572ed25e2bc76177ad01be40def327",
+                "reference": "a4c78f5a99572ed25e2bc76177ad01be40def327",
                 "shasum": ""
             },
             "require": {
@@ -1518,7 +1518,7 @@
                 "server",
                 "swoole"
             ],
-            "time": "2019-04-26T14:29:32+00:00"
+            "time": "2019-04-28T21:31:12+00:00"
         },
         {
             "name": "nikic/php-parser",
