@@ -1,0 +1,39 @@
+version: "3.1"
+services:
+
+    mysql:
+        image: mysql:5.7
+        container_name: swoole-mysql
+        working_dir: /application
+        volumes:
+            - .:/application
+            - ./docker/mysql/data:/var/lib/mysql
+        environment:
+            - MYSQL_ROOT_PASSWORD=root
+            - MYSQL_DATABASE=swoole
+            - MYSQL_USER=admin
+            - MYSQL_PASSWORD=admin
+        ports:
+            - "9082:3306"
+        logging:
+            driver: none
+#
+#    nginx:
+#        image: nginx:alpine
+#        container_name: myacuvue-nginx
+#        working_dir: /application
+#        volumes:
+#            - .:/application
+#            - ./docker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+#        ports:
+#            - "8080:80"
+
+    php-swoole:
+        build: docker/php-swoole
+        container_name: swoole-swoole
+        working_dir: /application
+        volumes:
+            - .:/application
+        ports:
+            - "9500:9500"
+        command: "bin/console swoole:server:run"

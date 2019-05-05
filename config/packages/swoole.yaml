@@ -1,0 +1,4 @@
+swoole:
+    http_server:
+        port: 9500
+        host: 0.0.0.0
